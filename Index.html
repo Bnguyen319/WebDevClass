@@ -1,12 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RHEL OS Information Hub</title>
+    <link id="themeStylesheet" rel="stylesheet" href="styles.css">
+    <script src="themeChanger.js"></script>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <h2>This is where ill be putting a picture of my school</h2>
-</body>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkD4aJ3Ov7q5AdiYNeDnqJFodEA81p1e2HJQ&usqp=CAU" alt="Picture of Ksu">
-</html>
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.php">Home</a>
+            <a href="rhel-overview.php">RHEL Overview</a>
+            <a href="rhel-history.php">RHEL History</a>
+            <a href="rhel-features.php">RHEL Features</a>
+            <a href="rhel-benefits.php">RHEL Benefits</a>
+            <a href="learn-more.php">Learn More</a>
+            <a href="color-changer.php">Color Changer</a>
+        </nav>
+        <p class="pod-name">
+            <?php
+                $pod_name = getenv('POD_NAME');
+                echo "Served by pod: $pod_name";
+            ?>
+        </p>
+        <h1 class="welcome-message">Welcome to RHEL OS Information Hub!</h1>
 
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <h2>About RHEL OS</h2>
+            <p>
+                Welcome to the RHEL OS Information Hub, your comprehensive resource for understanding and exploring the world of Red Hat Enterprise Linux. This site aims to provide valuable insights into RHEL, from its history and features to the benefits it offers to businesses and individuals alike.
+            </p>
+        </section>
+
+        <!-- Features/Contents Section -->
+        <section class="contents-section">
+            <h2>What's Inside?</h2>
+            <ul>
+                <li><strong>RHEL Overview:</strong> Dive deep into what Red Hat Enterprise Linux is and its significance in the world of operating systems.</li>
+                <li><strong>RHEL History:</strong> Explore the journey of RHEL from its inception to becoming a leading enterprise Linux distribution.</li>
+                <li><strong>Color Changer:</strong> A fun interactive tool showcasing the power of RHEL and its versatility.</li>
+                <li><strong>RHEL Features:</strong> Learn about the key features and capabilities that make RHEL a popular choice for businesses.</li>
+                <li><strong>RHEL Benefits:</strong> Discover the advantages and benefits that RHEL offers in terms of security, support, and stability.</li>
+                <li><strong>Learn More:</strong> Access curated resources and links to deepen your knowledge of RHEL OS.</li>
+            </ul>
+        </section>
+
+        <!-- Explanation about "Served by pod" -->
+        <section class="pod-explanation-section">
+            <h2>About "Served by pod:"</h2>
+            <p>
+                You might notice a unique message at the top of every page stating "Served by pod: POD_NAME". This showcases the dynamic nature of RHEL OS. Each time you access a page, it might be served by a different instance in the RHEL cluster. These instances represent the reliability and load-balancing capabilities of RHEL, ensuring high availability and seamless performance.
+            </p>
+        </section>
+
+        <!-- Optional: Call-to-action or Next Steps -->
+        <section class="cta-section">
+            <h2>Ready to Explore RHEL OS?</h2>
+            <p>Begin your journey by visiting our <a href="rhel-overview.php">RHEL Overview</a> or explore any other section from the navigation bar to delve deeper into the world of Red Hat Enterprise Linux!</p>
+        </section>
+    </div>
+</body>
+</html>

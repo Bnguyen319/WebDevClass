@@ -12,7 +12,7 @@
         <nav class="navbar">
             <a href="index.php">Home</a>
             <a href="rhel-overview.php">RHEL Overview</a>
-            <a href="rhel-evolution.php">RHEL Evolution</a>
+            <a href="rhel-history.php">RHEL history</a>
             <a href="rhel-features.php">RHEL Features</a>
             <a href="rhel-benefits.php">RHEL Benefits</a>
             <a href="learn-more.php">Learn More</a>

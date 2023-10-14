@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RHEL OS Evolution</title>
+    <title>RHEL OS history</title>
     <link id="themeStylesheet" rel="stylesheet" href="styles.css">
     <script src="themeChanger.js"></script>
 </head>
@@ -12,7 +12,7 @@
         <nav class="navbar">
             <a href="index.php">Home</a>
             <a href="rhel-overview.php">RHEL Overview</a>
-            <a href="rhel-evolution.php">RHEL Evolution</a>
+            <a href="rhel-history.php">RHEL history</a>
             <a href="rhel-features.php">RHEL Features</a>
             <a href="rhel-benefits.php">RHEL Benefits</a>
             <a href="learn-more.php">Learn More</a>

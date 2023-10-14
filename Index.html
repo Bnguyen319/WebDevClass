@@ -16,7 +16,6 @@
             <a href="rhel-features.php">RHEL Features</a>
             <a href="rhel-benefits.php">RHEL Benefits</a>
             <a href="learn-more.php">Learn More</a>
-            <a href="color-changer.php">Color Changer</a>
         </nav>
         <p class="pod-name">
             <?php

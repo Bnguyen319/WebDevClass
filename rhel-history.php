@@ -41,7 +41,7 @@
         <p>
             Rapid adoption of RHEL across industries, enterprises, and government organizations solidified its status as a cornerstone of modern IT infrastructure. RHEL played a pivotal role in advancing open-source technologies and standardizing enterprise computing.
             <a href="https://www.redhat.com/en/about/blog/next-20-years-red-hat-enterprise-linux">Learn more about RHEL's 20 years of innovation</a>
-            <img src="https://techaisle.com/images/RedHatCloudServices.png alt=" alt= "RHEL influence on enterprise IT" class="rhel-diagram">
+            <img src="https://techaisle.com/images/RedHatCloudServices.png" alt= "RHEL influence on enterprise IT" class="rhel-diagram">
         </p>
 
         <h2>Today: RHEL as a Leading Enterprise OS</h2>

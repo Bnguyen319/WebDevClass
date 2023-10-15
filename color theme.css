@@ -1,0 +1,39 @@
+body {
+    background-color: #EE0000; /* Dark Red */
+    color: #FFFFFF; /* White text */
+}
+
+.navbar {
+    background-color: #CC0000; /* Slightly lighter red */
+}
+
+.navbar a {
+    color: #00BB00; /* Dark Green */
+}
+
+.navbar a:hover {
+    background-color: #990000; /* Darker red on hover */
+    color: #FFFFFF; /* White text on hover */
+}
+
+.pod-name {
+    background-color: #660000; /* Darker red */
+    color: #00BB00; /* Dark Green text */
+}
+
+h1, h2 {
+    color: #EE0000; /* Dark Red text */
+}
+
+th {
+    background-color: #CC0000; /* Slightly lighter red */
+    color: #00BB00; /* Dark Green text */
+}
+
+a {
+    color: #EE0000; /* Dark Red links */
+}
+
+a:hover {
+    color: #00BB00; /* Dark Green links on hover */
+}

@@ -14,6 +14,7 @@
             <a href="rhel-overview.php">RHEL Overview</a>
             <a href="rhel-history.php">RHEL History</a>
             <a href="rhel-features.php">RHEL Features</a>
+            <a href="rhel-benefits.php">RHEL Benefits</a>
             <a href="Learn-More.php">Learn More</a>
         </nav>
         <p class="pod-name">
